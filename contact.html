@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - TheCodeStrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .contact-section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    .section-heading {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2 fs-4" href="#">
+        🌐 TheCodeStrap
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="consult.html">Consult</a></li>
+              <li><a class="dropdown-item" href="accessories.html">Plans & Pricing</a></li>
+              <li><a class="dropdown-item" href="#">View Projects</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Browse All</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <form class="d-flex me-3" role="search" action="https://www.google.com/search" method="GET" target="_blank">
+            <input class="form-control me-2" type="search" name="q" placeholder="Search Google" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container contact-section">
+    <h2 class="text-center section-heading">Contact Us</h2>
+    <h4 class="mb-3">📞 Call Back</h4>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+      </div>
+      <div class="mb-3">
+        <label for="cell" class="form-label">Cell Number</label>
+        <input type="tel" class="form-control" id="cell" placeholder="e.g. 012 345 6789" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+   <hr class="my-5">
+    <h4 class="mb-3">📧 Email or Call</h4>
+    <p>Email us at: <a href="mailto:contact@codestrap.com">contact@codestrap.com</a></p>
+    <p>Call us on: <a href="tel:+1234567890">+1 234 567 890</a></p>
+    <hr class="my-5">
+    <h4 class="mb-3">📍 Address</h4>
+    <p>
+      TheCodeStrap Office<br>
+      123 Web Lane<br>
+      Cape Town, 8000<br>
+      South Africa
+    </p>
+  </div>
+
+</body>
+</html>

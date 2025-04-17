@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Consult - TheCodeStrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .card-container {
+      padding: 50px 15px;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-img-top {
+      height: 240px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    footer .footer-card {
+      max-width: 600px;
+      margin: 60px auto 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border: none;
+    }
+
+    footer .footer-card .card-body li {
+      text-align: left;
+    }
+
+    footer .footer-card h5 {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2 fs-4" href="#">🌐 TheCodeStrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Explore</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="consult.html">Consult</a></li>
+              <li><a class="dropdown-item" href="accessories.html">Plans & Pricing</a></li>
+              <li><a class="dropdown-item" href="#">View Projects</a></li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Browse All</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <form class="d-flex me-3" role="search" action="https://www.google.com/search" method="GET" target="_blank">
+          <input class="form-control me-2" type="search" name="q" placeholder="Search Google" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container card-container">
+    <div class="row row-cols-1 row-cols-lg-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="front.jpg" class="card-img-top" alt="Front-end Developer">
+          <div class="card-body">
+            <h5 class="card-title">Front-end Developer</h5>
+            <p class="card-text">Experience: 5 Years</p>
+           <a href="front.html"><button class="btn btn-primary">Consult</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="back.jpg" class="card-img-top" alt="Back-end Developer">
+          <div class="card-body">
+            <h5 class="card-title">Back-end Developer</h5>
+            <p class="card-text">Experience: 8 Years</p>
+            <a href="back.html"> <button class="btn btn-primary">Consult</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="full.jpg" class="card-img-top" alt="Full-Stack Developer">
+          <div class="card-body">
+            <h5 class="card-title">Full-Stack Developer</h5>
+            <p class="card-text">Experience: 15 Years</p>
+            <a class="btn btn-primary" href="fullstack.html">Consult</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <div class="card footer-card text-center">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Developer's Note - From Our Team to You</h5>
+        <p class="card-text">
+          At <b>TheCodeStrap</b>, we take pride in how we build — with <b>passion</b>, <b>clarity</b>, and <b>purpose</b>.
+        </p>
+        <h5>✅ What We Do:</h5>
+        <ul>
+          <li>We build with <b>intention</b>.</li>
+          <li>Every feature is <b>crafted</b> to serve a purpose.</li>
+          <li>We write clean, <b>scalable code</b>.</li>
+          <li>We test and optimize for <b>performance</b> and <b>reliability</b>.</li>
+          <li>We ask questions to better understand your needs.</li>
+          <li>Security and privacy are always a <b>priority</b>.</li>
+        </ul>
+
+        <h5>❌ What We Don't Do:</h5>
+        <ul>
+          <li>We don't <b>cut corners</b> or rush through details.</li>
+          <li>We don't make assumptions — your <b>feedback</b> guides us.</li>
+          <li>We don't settle for "just works" — we aim for "works well and lasts".</li>
+        </ul>
+
+        <h5>🗣️ Your Input Matters</h5>
+        <p>
+          Your vision, expectations, and clarity help us build exactly what you need. So speak freely — we’re listening and building <i>with you</i> in mind.
+        </p>
+        <a href="#" class="btn btn-primary">Feedback</a>
+      </div>
+      <div class="card-footer text-body-secondary">
+        2 days ago
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
